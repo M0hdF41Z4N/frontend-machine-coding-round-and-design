@@ -1,0 +1,22 @@
+.star-rating {
+    font-size: 0;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .star::before {
+    content: "\2605"; /* Unicode character for star */
+  }
+  
+  .star:hover,
+  .star.active {
+    color: gold;
+  }
+  
